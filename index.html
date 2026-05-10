@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <img class="logo" src="assets/logo.svg" alt="">
+            <ul>
+                <li>
+                    <select class="select" name="language" id="">
+                        <option label="English" value="en-IN">English</option>
+                        <option label="हिन्दी" value="hi-IN">हिन्दी</option>
+                    </select>
+                </li>
+                <li>
+                    <button class="btn">Sign In</button>
+                </li>
+            </ul>
+        </nav>
+        <div class="box"></div>
+
+        <main>
+            <div class="maincontent">
+                <div class="hero">
+                    <div class="text">
+                        <div class="heading">
+                            <h1>Unlimited movies, shows, and more</h1>
+                            <h3>Starts at ₹149. Cancel at any time.</h3>
+                        </div>
+                        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                    </div>
+    
+                    <div class="form">
+                        <form action="/submit-data" method="POST">
+                            <input type="email" id="email" name="email" placeholder="Email address">
+                            <input type="submit" value="Get Started">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <div class="arcbox">
+        <div class="arc"></div>
+        <div class="forgroundbox"></div>
+        <div class="contentbox"></div>
+    </div>
+
+    <section id="trending">
+        <div class="trendingbox">
+            <h4>Trending Now</h4>
+
+            <button class="arrowbtn btn1">&lt;</button>
+            <div class="cards">
+                <ul>
+                    <li>
+                        <div class="card">
+                            <div class="image">
+                                <img src="assets/images/1.webp" alt="Dhurandar">
+                            </div>
+                            <div class="number">
+                                <h1>1</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="image">
+                                <img src="assets/images/2.webp" alt="Dhurandar">
+                            </div>
+                            <div class="number">
+                                <h1>2</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="image">
+                                <img src="assets/images/3.webp" alt="Dhurandar">
+                            </div>
+                            <div class="number">
+                                <h1>3</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="image">
+                                <img src="assets/images/4.webp" alt="Dhurandar">
+                            </div>
+                            <div class="number">
+                                <h1>4</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="image">
+                                <img src="assets/images/5.webp" alt="Dhurandar">
+                            </div>
+                            <div class="number">
+                                <h1>5</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="image">
+                                <img src="assets/images/6.webp" alt="Dhurandar">
+                            </div>
+                            <div class="number">
+                                <h1>6</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="image">
+                                <img src="assets/images/7.webp" alt="Dhurandar">
+                            </div>
+                            <div class="number">
+                                <h1>7</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="image">
+                                <img src="assets/images/8.webp" alt="Dhurandar">
+                            </div>
+                            <div class="number">
+                                <h1>8</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="image">
+                                <img src="assets/images/9.webp" alt="Dhurandar">
+                            </div>
+                            <div class="number">
+                                <h1>9</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="image">
+                                <img src="assets/images/10.webp" alt="Dhurandar">
+                            </div>
+                            <div class="number">
+                                <h1>10</h1>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button class="arrowbtn btn2">&gt;</button>
+        </div>
+    </section>
+
+    <section id="reasons">
+        <div class="reasonsbox">
+            <h4>More Reasons to Watch</h4>
+            <div class="plates">
+                <div class="plate">
+                    <h4>Enjoy on your TV</h4>
+                    <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                    <img src="assets/svgs/tv.svg" alt="">
+                </div>
+                <div class="plate">
+                    <h4>Download your shows to watch offline</h4>
+                    <p>Save your favourites easily and always have something to watch.</p>
+                    <img src="assets/svgs/download.svg" alt="">
+                </div>
+                <div class="plate">
+                    <h4>Watch everywhere</h4>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                    <img src="assets/svgs/scope.svg" alt="">
+                </div>
+                <div class="plate">
+                    <h4>Create profiles for kids</h4>
+                    <p>Send kids on adventures with their favourite characters in a space made just for them — free with
+                        your membership.</p>
+                    <img src="assets/svgs/smile.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faqs">
+        <div class="faqsbox">
+            <h4>Frequently Asked Questions</h4>
+            <div class="questions">
+                <div class="question">
+                    <p>What is Netflix?</p>
+                    <img src="assets/svgs/plus.svg" alt="">
+                </div>
+                <div class="question">
+                    <p>How much does Netflix cost?</p>
+                    <img src="assets/svgs/plus.svg" alt="">
+                </div>
+                <div class="question">
+                    <p>Where can I watch?</p>
+                    <img src="assets/svgs/plus.svg" alt="">
+                </div>
+                <div class="question">
+                    <p>How do I cancel?</p>
+                    <img src="assets/svgs/plus.svg" alt="">
+                </div>
+                <div class="question">
+                    <p>What can I watch on Netflix?</p>
+                    <img src="assets/svgs/plus.svg" alt="">
+                </div>
+                <div class="question">
+                    <p>Is Netflix good for kids?</p>
+                    <img src="assets/svgs/plus.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="watchnow">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="formcls">
+            <div class="form">
+                <form action="/submit-data" method="POST">
+                    <input type="email" name="email" placeholder="Email address">
+                    <input type="submit" value="Get Started">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+
+            <p>Question? Call <a href="tell:000-800-919-1743">000-800-919-1743</a></p>
+            <div class="links">
+                <a href="https://netflix.com">FAQ</a>
+                <a href="https://netflix.com">Help Centre</a>
+                <a href="https://netflix.com">Account</a>
+                <a href="https://netflix.com">Media Centre</a>
+                <a href="https://netflix.com">Investor Relations</a>
+                <a href="https://netflix.com">Jobs</a>
+                <a href="https://netflix.com">Ways to Watch</a>
+                <a href="https://netflix.com">Terms of Use</a>
+                <a href="https://netflix.com">Privacy</a>
+                <a href="https://netflix.com">Cookie Preferences</a>
+                <a href="https://netflix.com">Corporate Information</a>
+                <a href="https://netflix.com">Contact Us</a>
+                <a href="https://netflix.com">Speed Test</a>
+                <a href="https://netflix.com">Legal Notices</a>
+                <a href="https://netflix.com">Only on Netflix</a>
+    
+            </div>
+            <select class="select" name="language" id="">
+                <option label="English" value="en-IN">English</option>
+                <option label="हिन्दी" value="hi-IN">हिन्दी</option>
+            </select>
+            <p>Netflix India</p>
+            <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
